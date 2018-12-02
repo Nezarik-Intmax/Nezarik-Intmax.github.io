@@ -513,6 +513,10 @@ h1 {
   display: inline-block;
 }
 
+.trigger:hover {
+  color: #7a7f92;
+}
+
 @media screen and (max-width: 1024px) {
   .nav__list {
     float: none;

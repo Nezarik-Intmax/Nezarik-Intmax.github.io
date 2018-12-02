@@ -11,16 +11,16 @@
             <div class="container">
 		        <span class="logo">THE SEO <b>COMPANY</b></span>
                 <ul class="nav__list">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">Testimonials</a></li>
-                    <li><a href="">Pricing</a></li>
-                    <li><a href="">Try for Free</a></li>
+                    <li><a href="#Home" class="trigger">Home</a></li>
+                    <li><a href="#Features" class="trigger">Features</a></li>
+                    <li><a href="#Testimonials" class="trigger">Testimonials</a></li>
+                    <li><a href="#Pricing" class="trigger">Pricing</a></li>
+                    <li><a href="#TFF" class="trigger">Try for Free</a></li>
                 </ul>
             </div>
 		</header>
         <main class="main">
-            <section class="section section-1">
+            <section class="section section-1" data-target="Home">
                 <div class="container">
                     <div class="section-1__left"><img src="./content/site-img/iphone_6_space_gray_v3_.RGB_color.0115.png" alt=""></div>
                     <div class="section-1__right">
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section section-2">
+            <section class="section section-2" data-target="Features">
                 <div class="container">
                     <div class="section-2__left">
                         <a class="link" href="#">ORGANIC SEARCH REPORT</a>
@@ -46,7 +46,7 @@
                     <div class="section-2__right"><img src="./content/site-img/table-report.png" alt=""></div>
                 </div>
             </section>
-            <section class="section section-3">
+            <section class="section section-3" data-target="Testimonials">
                 <div class="container">
                     <h2 class="title">The Best Digital Agencies Recommend Our Software</h2>
                     <p>Industry experts mention their experience using our software and the excellent results they heve achieved</p>
@@ -80,7 +80,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="section section-4">
+            <section class="section section-4" data-target="Pricing">
               <div class="container">
                 <h2 class="title">The Best Digital Agencies Recommend Our Software</h2>
                 <p>Industry experts mention their experience using our software and the excellent results they heve achieved</p>
@@ -127,7 +127,7 @@
                 </ul>
               </div>
             </section>
-            <section class="section section-5">
+            <section class="section section-5" data-target="TFF">
                 <h2>Increase your conversion rates now</h2>
                 <div class="section__description">
                     <p>Learn how to increase both your online and offline conversion rates and boost your sales and profits.</p>
@@ -184,5 +184,7 @@
         </div>
       </div>
     </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scroll.js"></script>
 </body>
 </html>
